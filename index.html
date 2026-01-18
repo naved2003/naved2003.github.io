@@ -1,76 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Naved Jamal | Web Developer</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <!-- Navigation -->
+  <nav id="navbar">
+    <h2 class="logo">Naved</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="themeToggle">🌙</button>
+  </nav>
+
   <!-- Header -->
-  <header>
+  <header class="hero">
     <h1>Naved Jamal</h1>
     <p>Web Development Intern | Fresher</p>
     <a href="#contact" class="btn">Contact Me</a>
   </header>
 
   <!-- About -->
-  <section id="about">
+  <section id="about" class="reveal">
     <h2>About Me</h2>
     <p>
       I am a passionate web development fresher with hands-on experience in
-      HTML, CSS, and JavaScript. I enjoy building responsive and user-friendly
-      websites and am eager to learn new technologies.
+      HTML, CSS, JavaScript, and modern frameworks. I enjoy building clean,
+      responsive, and user-friendly websites.
     </p>
   </section>
 
   <!-- Skills -->
-  <section id="skills">
+  <section id="skills" class="reveal">
     <h2>Skills</h2>
     <div class="skills-list">
       <span>HTML</span>
       <span>CSS</span>
       <span>JavaScript</span>
-      <span>Jquery</span>
+      <span>jQuery</span>
       <span>Bootstrap</span>
       <span>AngularJS</span>
     </div>
   </section>
 
   <!-- Projects -->
-  <section id="projects">
+  <section id="projects" class="reveal">
     <h2>Projects</h2>
 
-    <div class="project">
+    <div class="project-card">
       <h3>Personal Portfolio Website</h3>
-      <p>A responsive portfolio website using HTML and CSS.</p>
-      <a href="https://naved2003.github.io">View Project</a>
+      <p>Responsive portfolio built using HTML, CSS, and JavaScript.</p>
+      <a href="https://naved2003.github.io" target="_blank">View Project</a>
     </div>
 
-    <div class="project">
+    <div class="project-card">
       <h3>School Website</h3>
-      <p>School Website project which I created using HTML, CSS and JavaScript.</p>
-      <a href="https://naved2003.github.io/school">View Project</a>
+      <p>School website with interactive features using JavaScript.</p>
+      <a href="https://naved2003.github.io/school" target="_blank">View Project</a>
     </div>
-
   </section>
 
   <!-- Contact -->
-  <section id="contact">
+  <section id="contact" class="reveal">
     <h2>Contact Me</h2>
-    <p>Email: navedjamal2003@email.com</p>
-    <p>Phone: +91 7291045380</p>
+    <p>Email: <strong>navedjamal2003@email.com</strong></p>
+    <p>Phone: <strong>+91 7291045380</strong></p>
     <p>
-      GitHub: <a href="https://github.com/naved2003">github.com/naved2003</a><br>
-      LinkedIn: <a href="https://www.linkedin.com/in/naved-jamal-ab4402381">linkedin.com/in/naved-jamal-ab4402381</a>
+      GitHub: <a href="https://github.com/naved2003">github.com/naved2003</a><br />
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/naved-jamal-ab4402381">
+        linkedin.com/in/naved-jamal-ab4402381
+      </a>
     </p>
   </section>
+
+  <!-- Scroll to Top -->
+  <button id="scrollTop">↑</button>
 
   <!-- Footer -->
   <footer>
     <p>© 2026 Naved Jamal | Web Developer</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
